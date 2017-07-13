@@ -1,0 +1,37 @@
+﻿body
+{
+   background-color: #ffffff;
+   color: blue;
+}
+
+h1, h2, h3, h4, h5, h6, th
+{
+color: Blue;
+}
+
+
+.caption{font-weight: bold; color: maroon;}
+.greeting {font-size:34pt; font-family: Bookman Old Style; font-style:italic; font-weight:bold;}
+.content {font-size:14pt; font-family: Georgia}
+
+.navbar-inverse {
+    background-color: #090f54;
+    border-color: #ffffff;
+}
+
+.invoice
+{
+	background-color: white;
+}
+
+#invoice {border-spacing: 0px; border: 1px solid maroon; width:100%;}
+#invoice td, #invoice th{padding: 6px; border: 1px solid maroon;}
+
+/*The style for the Master page */
+#header{background-image:url(../images/banner1.jpg); background-repeat:no-repeat; width:100%; height:200px; background-size:cover; position:fixed; top:0px;}
+#left{background-color:#171f77; padding-top:20px; top:150px; height:800px;}
+#right{top:150px; height:800px; background-color:#ffffff;}
+
+/*The style for the table on ImportantDates page */
+#IDates{margin:auto; border:3px solid red; border-spacing:0px; border-collapse:collapse;}
+#IDates td, th{border: 1px solid red;}
